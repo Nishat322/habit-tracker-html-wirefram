@@ -17,6 +17,7 @@
     background-color: #aaa;
   }
   
+  /*
   nav {
     position: fixed;
     top: 0;
@@ -24,6 +25,8 @@
     right: 0;
     z-index: 10;
   }
+  */
+
   header {
     padding: 5% 0;
   }
@@ -46,4 +49,12 @@
   hr {
     border: 10px solid black;
     border-radius: 5px;
+  }
+
+  li{
+      list-style: none;
+  }
+
+  .expanded{
+      border-style: double;
   }
